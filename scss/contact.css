@@ -7,9 +7,9 @@ body {
 body::before {
   content: '';
   background-image: url(../img/page-page.png);
-  background-position: top right;
+  background-position: top;
   background-repeat: no-repeat;
-  background-size: 110vmax;
+  background-size: 100vmax;
   opacity: 0.9;
   position: absolute;
   top: 0;
