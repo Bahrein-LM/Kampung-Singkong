@@ -8,12 +8,55 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="scss/gallery.css">
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Kampung Singkong | Gallery</title>
   </head>
   <body>
-    <h1>Anda Memasuki Halaman Gallery</h1>
-
+    <div class="header-bar" data-aos="fade-down" data-aos-easing="ease-out-cubic"
+    data-aos-duration="2000">
+      <div class="container my-4">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light custom-nav bg-transparent">
+          <a class="navbar-brand" href="index.html">
+            <img src="img/logo-sementara.png" alt="logo ks">
+            <span>Askarayasa</span>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="usaha.html">Pengusaha</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div class="main-1">
+      <div class="container">
+        <div class="row justify-content-start baris-1">
+          <div class="col-5">
+            <h1 style="font-family: 'Dongle', sans-serif;">Gallery</h1>
+            <p>Pada halaman ini, anda dapat melihat foto kegiatan masyarakat dalam mengelola berbagai olahan singkong.</p>
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
